@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+  <bean id="DataSearcherMySQLImpl" class="account_keeping.temp.bean.DataSearcherMySQLImpl">
+    <property name="dbServerUrl">jdbc:mysql://localhost:3306/</property>
+    <property name="dbName">account_keeping</property>
+    <property name="user">lacus8128</property>
+    <property name="password">XXXXXXXX</property>
+    <property name="options">useUnicode=true&amp;characterEncoding=utf8</property>
+  </bean>
+  <bean id="DataSearcherDummyImpl" class="account_keeping.temp.bean.DataSearcherDummyImpl">
+    <!-- No Property -->
+  </bean>
+</beans>
